@@ -30,15 +30,3 @@ function removeFirstDriver(Driver) {
   var newArray = drivers.slice(1);
   return newArray;
 }
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
