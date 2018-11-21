@@ -2,32 +2,32 @@
 const drivers = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendDriver(kitten) {
-  return kittens.push(kitten);
+  return drivers.push(kitten);
 }
 function destructivelyPrependDriver(kitten) {
-  return kittens.unshift(kitten);
+  return drivers.unshift(kitten);
 }
 
 function destructivelyRemoveLastDriver(Drivers) {
-  return kittens.pop();
+  return drivers.pop();
 }
 function destructivelyRemoveFirstDriver(Drivers) {
-  return kittens.shift();
+  return drivers.shift();
 }
 function appendDriver(name){
-  return [...kittens, name]
+  return [...drivers, name]
 }
 
 function prependDriver(name){
-  return [name, ...kittens]
+  return [name, ...drivers]
 }
 
 function removeLastDriver(Driver) {
-  var newArray = kittens.slice(0, kittens.length - 1);
+  var newArray = drivers.slice(0, drivers.length - 1);
   return newArray;
 }
 function removeFirstDriver(Driver) {
-  var newArray = kittens.slice(1);
+  var newArray = drivers.slice(1);
   return newArray;
 }
 © 2018 GitHub, Inc.
